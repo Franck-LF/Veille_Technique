@@ -6,6 +6,7 @@ def benchmark(fn, sentences):
     print("======= START =======")
     start = time.perf_counter()
     vectors = fn(sentences)
+    # print(vectors)
     end = time.perf_counter()
     print("=======  END  =======")
 

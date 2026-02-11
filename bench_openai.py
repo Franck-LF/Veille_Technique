@@ -1,9 +1,16 @@
 
+import os
 from openai import OpenAI
 from data import SENTENCES
 from benchmark_utils import benchmark
+from dotenv import load_dotenv
 
-client = OpenAI(api_key="YOUR_KEY")
+
+load_dotenv()
+
+key = os.getenv('OPENAI_API_KEY')
+
+client = OpenAI(api_key=key)
 
 def embed_openai(texts):
     resp = client.embeddings.create(
