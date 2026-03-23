@@ -10,5 +10,5 @@ Ce projet consiste en l'étude théorique des méthodes de vectorisation de text
 
 # 3. ...
 
-<img src="https://github.com/Franck-LF/livrable_BUG/blob/main/Image/mlops.jpg" alt="Drawing" style="width: 500px;"/>
+<img src="https://github.com/Franck-LF/Veille_Technique/blob/main/images/mlops.jpg" alt="Drawing" style="width: 500px;"/>
 
